@@ -1,8 +1,8 @@
-# 🍽️ Recipe Finder
+# Recipe Finder
 
 A modern and responsive Recipe Finder web application built using React.js and Tailwind CSS. Users can search recipes, view detailed cooking instructions, watch recipe videos, and save their favorite dishes for later.
 
-## 🚀 Live Demo
+## Live Demo
 
 https://recipe-finder-7k1mu4q79-shek-malik-bashas-projects.vercel.app/
 

@@ -1,16 +1,141 @@
-# React + Vite
+# 🍽️ Recipe Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Recipe Finder web application built using React.js and Tailwind CSS. Users can search recipes, view detailed cooking instructions, watch recipe videos, and save their favorite dishes for later.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://recipe-finder-7k1mu4q79-shek-malik-bashas-projects.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the ESLint configuration
+* 🔍 Search recipes instantly
+* 🍲 Browse featured recipes
+* ❤️ Add recipes to favorites
+* 🗑️ Remove recipes from favorites
+* 📖 View complete recipe details
+* 🥗 Ingredients list and cooking instructions
+* 🎥 Watch recipe videos from YouTube
+* 💾 Favorites stored using Local Storage
+* 📱 Fully responsive modern UI
+* ✨ Smooth animations and interactive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+* React.js
+* React Router DOM
+* Tailwind CSS
+* Vite
+
+### API
+
+* TheMealDB API
+
+### Deployment
+
+* Vercel
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── assets/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── FeaturedRecipes.jsx
+│   ├── RecipeCard.jsx
+│   ├── SearchBar.jsx
+│   ├── Categories.jsx
+│   ├── About.jsx
+│   └── Footer.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Favorites.jsx
+│   └── RecipeDetails.jsx
+│
+├── services/
+│   └── mealApi.js
+│
+└── App.jsx
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/shek-malik-basha/Recipe-finder.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd Recipe-finder
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 📸 Screens
+
+* Home Page
+* Featured Recipes
+* Recipe Details Page
+* Favorites Page
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped in understanding:
+
+* React Components
+* Props and State Management
+* React Hooks (useState, useEffect)
+* API Integration
+* Routing using React Router
+* Local Storage
+* Responsive Design with Tailwind CSS
+* Deployment using Vercel
+
+---
+
+## 👨‍💻 Author
+
+**Shek Malik Basha**
+
+GitHub: https://github.com/shek-malik-basha
+
+LinkedIn: https://www.linkedin.com/in/malik-basha-shek/
+
+Email: [malikbashshaik09@gmail.com](mailto:malikbashshaik09@gmail.com)
+
